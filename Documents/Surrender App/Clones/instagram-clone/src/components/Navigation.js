@@ -15,7 +15,7 @@ function Navigation () {
                 </div>
                 <Menu />
             </div>
-        /</div>
+        </div>
     )
 
 }
