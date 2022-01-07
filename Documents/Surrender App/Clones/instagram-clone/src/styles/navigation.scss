@@ -35,15 +35,16 @@
       justify-content: center;
 
       .searchIcon {
-        width: 10px;
+        width: 15px;
         opacity: 0.4;
-        margin-right: 0.3em;
+        margin-right: 8.8em;
       }
 
       .searchText {
         color: $font-color-secondary;
         font-size: 0.85em;
         font-weight: 300;
+        align-content: right;
       }
     }
   }
