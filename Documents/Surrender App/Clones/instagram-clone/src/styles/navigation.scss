@@ -32,19 +32,19 @@
       min-width: 225px;
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: flex-start;
+      padding: 5px;
 
       .searchIcon {
-        width: 15px;
+        width: 16px;
         opacity: 0.4;
-        margin-right: 8.8em;
+        margin-right: 0.3em;
       }
 
       .searchText {
         color: $font-color-secondary;
         font-size: 0.85em;
         font-weight: 300;
-        align-content: right;
       }
     }
   }

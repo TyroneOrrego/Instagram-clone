@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 0.75em;
+    padding: 0.75em;
 
     .profile {
       margin-bottom: 0;
@@ -24,14 +24,15 @@
       }
     }
   }
+
   .cardImage {
     width: 100%;
     display: block;
   }
 
-  likedBy {
+  .likedBy {
     display: flex;
-    scroll-padding-left: 1em;
+    padding-left: 1em;
 
     span {
       font-size: 0.75em;
@@ -60,10 +61,10 @@
 
     .commentText {
       color: $font-color-secondary;
+    }
 
-      .postText {
-        color: $link-color-secondary;
-      }
+    .postText {
+      color: $link-color-secondary;
     }
   }
 }
